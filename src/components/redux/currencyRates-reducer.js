@@ -30,7 +30,7 @@ export const getCurrencyRates = () => async (dispatch) => {
             json = undefined;
             throw new Error();
         }
-    }catch{
+    }catch(e){
         console.log('API error');
     }
     dispatch(setCurrency(json));

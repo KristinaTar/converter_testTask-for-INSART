@@ -38,8 +38,7 @@ function Converter(props) {
     }
 
 
-    return (
-        <Container>
+    return <Container>
             <Row className="justify-content-md-center">
                 <Col md={9}>
                     <Container style={{marginTop: 30, justifyContent: 'center'}}>
@@ -79,7 +78,6 @@ function Converter(props) {
                 </Col>
             </Row>
         </Container>
-    )
 }
 
 export default Converter;

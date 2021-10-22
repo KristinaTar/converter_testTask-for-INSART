@@ -9,12 +9,12 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
 
-    return <>
+    return <div>
 <Header/>
 <CurrencyTableContainer />
 <ConverterContainer/>
 <Footer/>
-</>
+</div>
 }
 
 export default App;

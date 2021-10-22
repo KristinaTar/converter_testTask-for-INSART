@@ -5,8 +5,7 @@ import {Col, Container, Table, Row} from "react-bootstrap";
 const CurrencyTable = (props) => {
 let date = new Date();
 
-    return <>
-        <Container>
+    return <Container>
             <Row className="justify-content-md-center mt-5" >
                 <Col md={9} >
                     <Table className="currencyRatesTable" striped bordered hover variant="dark">
@@ -36,8 +35,5 @@ let date = new Date();
                 </Col>
             </Row>
         </Container>
-
-
-    </>
 }
 export default CurrencyTable;
